@@ -1,0 +1,38 @@
+# Multinomial Logistic Regression for MNIST Classification
+
+This repository contains a simple implementation of Multinomial Logistic Regression using PyTorch for the classification of handwritten digits in the MNIST dataset. The model is trained and evaluated on the MNIST dataset, and an inference functionality is provided to perform predictions on user-provided images.
+
+## Overview
+
+The Multinomial Logistic Regression model implemented in this repository is trained on the MNIST dataset, which consists of grayscale images of handwritten digits (0 to 9). The model learns to classify these images into one of the ten possible classes based on their pixel values.
+
+The training process involves optimizing the model's parameters using stochastic gradient descent (SGD) with cross-entropy loss and L2 regularization. The model's performance is evaluated on a separate validation set, and early stopping is applied to prevent overfitting.
+
+## Files
+
+- `classifier.py`: Python script containing the implementation of the Multinomial Logistic Regression model, training loop, and inference functionality.
+
+
+## Usage
+
+1. **Training the Model**:
+   - Run the `classifier.py`by executing `python classifier.py` script to train the model on the MNIST dataset. Adjust hyperparameters such as learning rate, regularization strength, and number of epochs as needed.
+
+2. **Evaluation**:
+   - After training, the model's performance is evaluated on the test set, and the test accuracy is reported.
+
+3. **Inference**:
+   - The script provides an inference functionality that allows users to input file paths for images. The model performs predictions on these images and displays the predicted labels.
+   - The program will prompt the user to add the path to the jpeg image.
+   - For example `./MNIST_JPGS/trainingSet/trainingSet/0/img_1.jpg` or `./MNIST_JPGS/testSample/img_22.jpg`
+
+## Requirements
+
+Ensure you have the following Python packages installed:
+- PyTorch
+- torchvision
+- NumPy
+- Matplotlib
+- PIL (Python Imaging Library)
+
+You can install the required packages using pip:

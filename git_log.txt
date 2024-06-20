@@ -1,0 +1,185 @@
+commit 8dd17a605381f740ed158166f32195efece498e2
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 20 13:44:20 2024 +0200
+
+    Add section for validation and training accuracies
+
+commit b856e772f99ad5fb98fff57141fbe3ff5cde745d
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 20 13:13:43 2024 +0200
+
+    Add a section to validate the model
+
+commit 442e6029779fa71fef44c9e4b16aada1fa0eaf8e
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 20 12:18:42 2024 +0200
+
+    Resize the image to match model input size
+
+commit 843343623936682893e52610cba3a7b54116012c
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 20 09:59:37 2024 +0200
+
+    Implement early stopping, clearly print the best epochs only
+
+commit a6ae3a545c1bb0fcbac7ad6262648a843eac9524
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Fri Apr 19 22:56:42 2024 +0200
+
+    Restore the weights of the best model
+
+commit c6099e8313ef91a8772a31d580be2ace85c14e98
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Fri Apr 19 22:54:07 2024 +0200
+
+    Check for improvement in validation accuracy
+
+commit 56f01b7e0178cf8128cb88ff023fb84790dbe54c
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Fri Apr 19 19:59:13 2024 +0200
+
+    Add variables for early stopping
+
+commit feacbf15d3e11e73afc0eb5a4bdc0a42e4e14b43
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Fri Apr 19 19:38:51 2024 +0200
+
+    Add helper function  to implementfearly stopping
+
+commit e13aa060de0610c7243f5821ce86aee4efa00251
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Fri Apr 19 19:12:21 2024 +0200
+
+    Add L2 regularisation to optimize the model
+
+commit 3ac94ed900dd472e26125bbc602bfa64e23d1083
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Thu Apr 18 22:47:05 2024 +0200
+
+    Flatten the image before passing it in
+
+commit ec8ae32dbaa8eed9e198fe3a7917956887b0f2fb
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Thu Apr 18 21:44:16 2024 +0200
+
+    Add implementation to read image from user input
+
+commit 8b9bb782f2a20fbc088d9747a933e652cac216f5
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Thu Apr 18 16:28:57 2024 +0200
+
+    Remove weight decay optimizer
+
+commit 0129ac9a00beb7f4770f011a6e751b2c2cfc660d
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Thu Apr 18 16:25:04 2024 +0200
+
+    Use AdamW optimizer instead of SGD
+
+commit 7726d333d387c6b706c5f1da84a71dbb78dc2564
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sun Apr 14 14:46:49 2024 +0200
+
+    Implement a section to display images and predictions
+
+commit b0744cc48848df7e888ab37fcb497a3c3a549e29
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sun Apr 14 14:42:53 2024 +0200
+
+    Adjust the hidden layer to 60 neurons
+
+commit 923bc6ec8548a3741c7d29c9e8582b2069bb1d70
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sun Apr 14 14:28:26 2024 +0200
+
+    Adjust the hidden layer to 30 neurons
+
+commit cca86c241fa2f2bb62e469bbc3c856b561c45b08
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sun Apr 14 14:27:24 2024 +0200
+
+    Add second layer in the ANN with 30 neurons
+
+commit f01996644ee59b1046656644ef20e0820b7ddbc9
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sun Apr 14 14:07:18 2024 +0200
+
+    Implement ReLu activation for non-linear data
+
+commit 41f1da28d76282907bc9fa5650dcdb184c131696
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sun Apr 14 12:05:10 2024 +0200
+
+    Implement L2 regularization to prevent overfitting
+
+commit 1fe3a72e8c4662256b06196e24d04abbdd1a0f22
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sun Apr 14 11:37:01 2024 +0200
+
+    Display predictions
+
+commit f8895711bb2ed29046c7f50a3a9cf54459f8bd72
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 16:20:14 2024 +0200
+
+    Compute validation accuracy using validation loader portion of dataset
+
+commit 8ec1534b4ef2bce021b3970299252921c0ed9250
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 16:15:34 2024 +0200
+
+    Implement backward function to use backprogation algorithm
+
+commit dead743dd85e9c66c83faf378762a05db92f292d
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 12:36:44 2024 +0200
+
+    Compute loss using cross-entropy loss function
+
+commit 24405786a0e6e4cc9625caf4a0076e63bcc0733d
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 12:32:46 2024 +0200
+
+    Define a nested loop to loop thorough the train loader using number of epochs
+
+commit c8acd25f2ba5c6c30973f0c5f9e2f9ee5a554cd9
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 11:21:48 2024 +0200
+
+    Define Multinomimial Logistic Regression class to calculate probabilities
+
+commit 2dedf6cfadfac1e28e756f474dc82a3ef4a29fd6
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 08:55:43 2024 +0200
+
+    Create data loaders
+
+commit 4263c2699aa1eccbac35ece82fb07a89552c1632
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 08:50:31 2024 +0200
+
+    Reshape the data
+
+commit 953f8179451090686238cc5eb9636ef9cfd694c4
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 08:46:06 2024 +0200
+
+    Split training data into training and validation
+
+commit 91ff6e4e3091dd8148ef5c0ccfb094baf252c1b3
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 08:37:07 2024 +0200
+
+    Create variables for MNIST dasa Store as X_train, y_train, X_test, y_test
+
+commit 7d7420ae537440803b935b4f509c33801843e803
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Sat Apr 13 08:20:31 2024 +0200
+
+    Load MNIST data from file
+
+commit b8725bf08e5998ad47c03bdbcec6667d18e4821b
+Author: Lehlohonolo Mosikili <karabolehlohonolo242@gmail.com>
+Date:   Fri Apr 12 23:49:06 2024 +0200
+
+    import all libraries
